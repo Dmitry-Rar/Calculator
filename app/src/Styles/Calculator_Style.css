@@ -1,0 +1,19 @@
+
+.calculator-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-flow: column nowrap;
+}
+
+.calculator-section button{
+    height: 5vh;
+    width: calc(50vw/14);
+}
+
+.calculator-screen-section{
+    background-color: bisque;
+    height: 10vh;
+    width: 50vw;
+}
